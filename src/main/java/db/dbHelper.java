@@ -1,4 +1,4 @@
-package db;
+﻿package db;
 
 import model.carInfo;
 import model.loginInfo;
@@ -10,7 +10,7 @@ import java.sql.*;
 public class dbHelper {
 
     private static String user ="root";
-    private static String pass = "Czb&&123";
+    private static String pass = "";
     private static String url="jdbc:mysql://39.97.46.221/QRcar?characterEncoding=UTF-8";
     private static String Driver = "com.mysql.jdbc.Driver";
 
